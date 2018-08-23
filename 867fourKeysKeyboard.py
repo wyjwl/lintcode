@@ -9,4 +9,3 @@ def maxA(N):
     return dp
 
 
-print(maxA(9))
