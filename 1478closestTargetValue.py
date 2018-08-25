@@ -28,3 +28,15 @@ class Solution:
 
 def myMax(lastSum, sum):
     return max(lastSum, sum) if lastSum is not None else sum
+
+
+
+
+
+
+
+
+
+
+
+# 先排序 然后双指针前后搜索
