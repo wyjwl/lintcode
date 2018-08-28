@@ -4,9 +4,9 @@
 def count(n, m):
     e_ = 1e9 + 7
     if n == 1:
-        return m % e_
+        return int(m % e_)
     if n == 2:
-        return (m * m - 1) % e_
+        return int((m * (m - 1)) % e_)
 
     result = [0] * n
     result[0] = m % e_
